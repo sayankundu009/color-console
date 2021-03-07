@@ -5,7 +5,7 @@ Customize your console.logs with css
 
 **CDN:** Add the following script to the end of your `<head>` section
 ```html
-<script src="https://cdn.jsdelivr.net/gh/sayankundu009/color-console/dist/color-console.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/sayankundu009/color-console/dist/color-console.min.js"></script>
 ```
 
 ## Use
