@@ -136,7 +136,7 @@
             console.log.apply(null, [message, ...styles]);
         }
         
-        generateOutput(){
+        generate(){
             let message = this.message.replace(/\n/g, "\\n");
             let output = [message, ...this.styles].map(item => `"${item}"`).join(",");
 
@@ -144,7 +144,7 @@
         }
 
         show(){
-            console.log(this.generateOutput());
+            console.log(this.generate());
         }
 
         extend(input = {}){
