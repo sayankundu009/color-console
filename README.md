@@ -3,7 +3,7 @@
 Customize your console.logs with css
 ## Install
 
-**CDN:** Add the following script to the end of your `<head>` section
+**CDN:** Add the following script to the end of your `<body>` section
 ```html
 <script src="https://cdn.jsdelivr.net/gh/sayankundu009/color-console/dist/color-console.min.js"></script>
 ```
